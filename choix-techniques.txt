@@ -1,0 +1,11 @@
+Navigation principale : navbar supérieure  (informations obligatoires : nom, prénom, mail, entreprise)
+--> accueil
+--> technique
+--> suivi de projet
+--> intégration en entreprise
+
+Navigation secondaire : sous-menu déroulant pour les sous-pages + "précédent" / "suivant" en bas de page + toutes les sous-pages disponibles dans la page principale d'un topic.
+
+Si possible : 0 scroll
+
+Charte graphique : vert et bleu (couleur globale de la CERP)
