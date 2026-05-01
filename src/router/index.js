@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import TechniqueView from '../views/TechniqueView.vue'
 import SuiviView from '../views/SuiviView.vue'
-import IntegrationView from '../views/IntegrationView'
+import IntegrationView from '../views/IntegrationView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
