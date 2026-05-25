@@ -3,3 +3,19 @@
     --secondary-color: #7ca780;
     --complementary-color: #EAEBED;
 }
+
+.nav-button {
+    text-decoration: none;
+    color: var(--main-color);
+    border: solid;
+    border-color: #464D77;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
