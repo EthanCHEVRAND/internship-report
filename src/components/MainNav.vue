@@ -15,27 +15,28 @@
             id: "/technique",
             label: "TECHNIQUE",
             links: [
-                { name: "Savoir faire technique numero 1", path: '/technique/sf-1' },
-                { name: "Savoir faire technique numero 2", path: '/technique/sf-2' },
-                { name: "Savoir faire technique numero 3", path: '/technique/sf-3' }
+                { name: "Savoir mettre en place un serveur Apache/PHP local", path: '/technique/server' },
+                { name: "Savoir comprendre et corriger des problèmes avec PHP", path: '/technique/php' },
+                { name: "Savoir utiliser le CMF Drupal", path: '/technique/drupal' },
+                { name: "Savoir gérer les modules via l'outil Composer", path: '/technique/composer' }
             ]
         },
         {
             id: "/suivi",
             label: "SUIVI DE PROJET",
             links: [
-                { name: "sf-1", path: '/suivi/sf-1' },
-                { name: "sf-2", path: '/suivi/sf-2' },
-                { name: "sf-3", path: '/suivi/sf-3' }
+                { name: "Savoir utiliser Git (outil de versionnement) efficacement et en respectant les contraintes données", path: '/suivi/git' },
+                { name: "Savoir découper le travail en tâches et les prioriser", path: '/suivi/taches' },
+                { name: "Savoir s'adapter faces aux imprévus", path: '/suivi/imprevus' }
             ]
         },
         {
             id: "/integration",
             label: "INTEGRATION EN ENTREPRISE",
             links: [
-                { name: "sf-1", path: '/integration/sf-1' },
-                { name: "sf-2", path: '/integration/sf-2' },
-                { name: "sf-3", path: '/integration/sf-3' }
+                { name: "Savoir s'intégrer dans un service", path: '/integration/integration-service' },
+                { name: "Savoir agir en autonomie tout en posant des questions si nécessaire", path: '/integration/autonomie' },
+                { name: "S'informer du contexte et des enjeux du sujet de stage", path: '/integration/contexte' }
             ]
         }
     ]
