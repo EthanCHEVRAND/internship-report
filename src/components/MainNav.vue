@@ -14,30 +14,17 @@
         {
             id: "/technique",
             label: "TECHNIQUE",
-            links: [
-                { name: "Savoir mettre en place un serveur Apache/PHP local", path: '/technique/server' },
-                { name: "Savoir comprendre et corriger des problèmes avec PHP", path: '/technique/php' },
-                { name: "Savoir utiliser le CMF Drupal", path: '/technique/drupal' },
-                { name: "Savoir gérer les modules via l'outil Composer", path: '/technique/composer' }
-            ]
+            links: []
         },
         {
             id: "/suivi",
             label: "SUIVI DE PROJET",
-            links: [
-                { name: "Savoir utiliser Git (outil de versionnement) efficacement et en respectant les contraintes données", path: '/suivi/git' },
-                { name: "Savoir découper le travail en tâches et les prioriser", path: '/suivi/taches' },
-                { name: "Savoir s'adapter faces aux imprévus", path: '/suivi/imprevus' }
-            ]
+            links: []
         },
         {
             id: "/integration",
             label: "INTEGRATION EN ENTREPRISE",
-            links: [
-                { name: "Savoir s'intégrer dans un service", path: '/integration/integration-service' },
-                { name: "Savoir agir en autonomie tout en posant des questions si nécessaire", path: '/integration/autonomie' },
-                { name: "S'informer du contexte et des enjeux du sujet de stage", path: '/integration/contexte' }
-            ]
+            links: []
         }
     ]
 
@@ -101,7 +88,7 @@
     }
 
     .header-element {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .header-div {

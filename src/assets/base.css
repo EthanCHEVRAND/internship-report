@@ -19,3 +19,17 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.purple {
+    background-color: purple;    
+}
+
+.red {
+    background-color: red;
+}
+

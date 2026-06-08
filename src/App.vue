@@ -11,5 +11,3 @@ import Footer from './components/Footer.vue'
 
   <Footer />
 </template>
-
-<style scoped></style>
