@@ -1,23 +1,16 @@
 <template>
     
     <div class="main-container">
-        <h2>Chronologie du site (WIP)</h2>
+        <h2>Chronologie du site</h2>
         <div class="trace-container">
-            <div style="display: flex; flex-direction: column;">
-                <div class="img-container">
-                    <img src="/public/images/trace_technique_server_1.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
-                    <span class="trace-title">Structure d'un serveur pour un site Drupal</span>
-                </div>
-
-                <div class="img-container">
-                    <img src="/public/images/trace_technique_server_2.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
-                    <span class="trace-title">Schéma de l'utilité et de l'évolution des deux serveurs mis en place</span>
-                </div>
+            <div class="img-container">
+                <img src="/images/trace_integration_1.jpg" alt="frise chronologique des principales etapes du site" class="trace-img">
+                <span class="trace-title">Chronologie du travail sur le site grand public</span>
             </div>
 
             <div class="description-container">
-                <span class="trace-tags"><span class="purple">Mise en place d'un serveur local</span>, <span class="yellow">Compréhension de la structure du CMF Drupal</span>, <span class="red">Gestion des configurations Drupal avec l'outil Drush</span></span>
-                <p class="trace-description">Rien</p>
+                <span class="trace-tags"><span class="purple">Intégration à un service</span>, <span class="yellow">Compréhension du contexte et des objectifs du sujet</span></span>
+                <p class="trace-description">Toute la complexité du sujet repose sur le fait qu'<span class="yellow">une dette technique importante se soit accumulée</span>. En effet, une partie du travail (effectué en 2023) a été effectué par une personne qui, tout comme moi, découvrait PHP et Drupal. La différence de mon côté était <span class="purple">un accompagnement par mon tuteur, qui est ingénieur développement web</span>, qui a donc des compétences importantes en PHP (et une compréhension du projet et de Drupal).<br> Une partie du projet a été nettoyé, ce qui <span class="yellow">a permis de réduire en partie la dette technique</span>, mais celle-ci n'est pas éliminée, il restera une partie importante à nettoyer. </p>
             </div>
         </div>
     </div>

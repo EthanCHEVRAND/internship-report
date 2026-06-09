@@ -5,12 +5,12 @@
         <div class="trace-container">
             <div style="display: flex; flex-direction: column;">
                 <div class="img-container">
-                    <img src="/public/images/trace_technique_server_1.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
+                    <img src="/images/trace_technique_server_1.jpg" alt="schema organisation d'un serveur Apache pour un projet Drupal" class="trace-img">
                     <span class="trace-title">Structure d'un serveur pour un site Drupal</span>
                 </div>
 
                 <div class="img-container">
-                    <img src="/public/images/trace_technique_server_2.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
+                    <img src="/images/trace_technique_server_2.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
                     <span class="trace-title">Schéma de l'utilité et de l'évolution des deux serveurs mis en place</span>
                 </div>
             </div>

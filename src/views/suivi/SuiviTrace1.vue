@@ -1,23 +1,16 @@
 <template>
     
     <div class="main-container">
-        <h2>Versionnement (WIP)</h2>
+        <h2>Versionnement</h2>
         <div class="trace-container">
-            <div style="display: flex; flex-direction: column;">
-                <div class="img-container">
-                    <img src="/public/images/trace_technique_server_1.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
-                    <span class="trace-title">Structure d'un serveur pour un site Drupal</span>
-                </div>
-
-                <div class="img-container">
-                    <img src="/public/images/trace_technique_server_2.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
-                    <span class="trace-title">Schéma de l'utilité et de l'évolution des deux serveurs mis en place</span>
-                </div>
+            <div class="img-container">
+                <img src="/images/trace_suivi_1.png" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
+                <span class="trace-title">Structure d'un serveur pour un site Drupal</span>
             </div>
 
             <div class="description-container">
-                <span class="trace-tags"><span class="purple">Mise en place d'un serveur local</span>, <span class="yellow">Compréhension de la structure du CMF Drupal</span>, <span class="red">Gestion des configurations Drupal avec l'outil Drush</span></span>
-                <p class="trace-description">Rien</p>
+                <span class="trace-tags"><span class="purple">Utilisation du workflow "Gitflow"</span>, <span class="yellow">Découpage et priorasation des tâches</span></span>
+                <p class="trace-description">L'outil Git a évidemment été au centre de mon travail durant ces neuf semaines. J'ai travaillé sur la <span class="purple">branche develop (en marron)</span> et sur des <span class="purple">branches feature (en vert)</span> ce qui <span class="purple">permet de pouvoir travailler dans un environnement isolé, avant de merge avec la branche develop</span>. <span class="yellow">Plusieurs branches features ont été nécessaires, afin de découper le travail de manière logique</span>, mais ces branches ne sont pas publiées, donc elles se retrouvent directement merge à la branche develop.<br>De plus, le fichier .gitignore avait quelques incohérences, <span class="yellow">j'ai donc fait des modifications pour ne plus versionner de fichiers gérés par Composer</span>. </p>
             </div>
         </div>
     </div>

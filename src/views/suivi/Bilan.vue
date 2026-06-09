@@ -1,13 +1,11 @@
 <template>
     <div class="trace-container">
-        <div class="img-container">
-            <img src="/public/images/trace_technique_server_2.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
-            <span class="trace-title">Titre de la trace</span>
-        </div>
-
         <div class="description-container">
-            <span class="trace-tags">Tag exemple 1, tag exemple 2, tag exemple 3</span>
-            <p class="trace-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolor impedit expedita vitae ipsum mollitia voluptatem repellendus dicta, minima quisquam incidunt, sit recusandae ducimus voluptas eligendi corrupti nulla! Expedita, sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos non dignissimos earum ullam aperiam! Dolorem eaque sed error eveniet architecto necessitatibus, tempore consectetur ratione vitae. Maxime quaerat iste impedit Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui numquam maiores odio nulla quasi, necessitatibus nisi omnis, eaque a perferendis. Fuga hic dolor id, quisquam doloremque cum eos possimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil rerum minima, similique quam aliquid iure cum quos, facilis veniam aspernatur laudantium cumque laboriosam nostrum a eaque consequuntur odit assumenda dolore?</p>
+            <p class="trace-description">Les savoir-faire principaux acquis et consolidés durant ma période de stage touchent la gestion basique d'un projet : </p>
+
+            <p class="trace-description">(acquis) Utilisation de Git pour le versionnement<br>Mon tuteur en entreprise m'a demandé d'utiliser le workflow gitflow, ce qui m'a permis de consolider ma compréhension sur l'utilisation des branches et d'une procédure de rollback. </p>
+
+            <p class="trace-description">(à consolider) Découpage et priorisation des tâches à partir d'une feuille de route<br>J'ai dû faire beaucoup de retour en arrière sur mes tâches, car je ne prenait pas toujours correctement le temps de vraiment penser à la logique de la priorisation. </p>
         </div>
     </div>
 </template>

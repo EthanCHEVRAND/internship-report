@@ -1,23 +1,16 @@
 <template>
     
     <div class="main-container">
-        <h2>Feuille de route et tâches (WIP)</h2>
+        <h2>Feuille de route et tâches</h2>
         <div class="trace-container">
-            <div style="display: flex; flex-direction: column;">
-                <div class="img-container">
-                    <img src="/public/images/trace_technique_server_1.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
-                    <span class="trace-title">Structure d'un serveur pour un site Drupal</span>
-                </div>
-
-                <div class="img-container">
-                    <img src="/public/images/trace_technique_server_2.jpg" alt="schema deux serveurs (simulation prod / environnement dev)" class="trace-img">
-                    <span class="trace-title">Schéma de l'utilité et de l'évolution des deux serveurs mis en place</span>
-                </div>
+            <div class="img-container">
+                <img src="/public/images/trace_suivi_2.jpg" alt="representation fiche de suivi" class="trace-img">
+                <span class="trace-title">Schéma de la structuration du déroulement du stage (à partir d'une feuille de route)</span>
             </div>
 
             <div class="description-container">
-                <span class="trace-tags"><span class="purple">Mise en place d'un serveur local</span>, <span class="yellow">Compréhension de la structure du CMF Drupal</span>, <span class="red">Gestion des configurations Drupal avec l'outil Drush</span></span>
-                <p class="trace-description">Rien</p>
+                <span class="trace-tags"><span class="purple">Découpage et priorisation des tâches</span>, <span class="yellow">Compréhension des outils et technologies utilisées</span></span>
+                <p class="trace-description">L'organisation de mon stage était axée autour d'une feuille de route qui m'a été transmise dès mon arrivée. Une bonne partie de la feuille de route tournait autour de l'apprentissage, car en effet, les outils étaient nouveaux pour moi. J'ai donc effectivement passé un certain temps à faire <span class="yellow">mes recherches sur Drupal, Composer, PHP et la procédure de mise en production</span>. La feuille de route servait de base, <span class="purple">il a donc fallu que je découpe le travail en tâche au fur et à mesure du stage</span>. <span class="purple">Cette priorisation s'est faite selon les retours que mon tuteur en entreprise m'a fait</span>. </p>
             </div>
         </div>
     </div>
